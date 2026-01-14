@@ -95,7 +95,7 @@ export const portfolio = {
       description:
         "A comprehensive Ansible testing environment for developing, testing, and validating automation scripts and roles before production deployment.",
       link: "https://github.com/force445/ansiblelab",
-      tags: ["Ansible", "DevOps", "CI/CD"],
+      tags: ["Ansible", "DevOps"],
     },
     {
       name: "Terraform Lab",
