@@ -26,19 +26,28 @@ export const portfolio = {
   ],
   certifications: [
     {
-      name: "Microsoft Certified: Azure Administrator Associate",
-      issuer: "Microsoft",
-      date: "2023",
+      name: "Introduction to C++",
+      issuer: "SoloLearn",
+      date: "Issued",
+      link: "https://www.sololearn.com/certificates/CC-HMCLZSHW",
     },
     {
-      name: "Certified Kubernetes Administrator (CKA)",
-      issuer: "The Linux Foundation",
-      date: "2022",
+      name: "C++ Intermediate",
+      issuer: "SoloLearn",
+      date: "Issued",
+      link: "https://www.sololearn.com/certificates/CC-HMCLZSHW",
     },
     {
-      name: "HashiCorp Certified: Terraform Associate",
-      issuer: "HashiCorp",
-      date: "2022",
+      name: "Introduction to Python",
+      issuer: "SoloLearn",
+      date: "Issued",
+      link: "https://www.sololearn.com/certificates/CC-HMCLZSHW",
+    },
+    {
+      name: "Python Intermediate",
+      issuer: "SoloLearn",
+      date: "Issued",
+      link: "https://www.sololearn.com/certificates/CC-HMCLZSHW",
     },
   ],
   experience: [

@@ -113,11 +113,20 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-12 text-center">Certifications</h2>
           <div className="grid gap-6 md:grid-cols-3">
             {portfolio.certifications.map((cert) => (
-              <Card key={cert.name}>
+              <Card key={cert.name} className="flex flex-col h-full bg-card hover:bg-accent/50 transition-colors">
                 <CardHeader>
                   <div className="flex items-center gap-2 mb-2">
                     <Server className="w-5 h-5 text-primary" />
-                    <CardTitle className="text-lg">{cert.name}</CardTitle>
+                    <CardTitle className="text-lg">
+                      {/* @ts-ignore - Validating link existence dynamically */}
+                      {cert.link ? (
+                        <Link href={cert.link} target="_blank" className="hover:underline">
+                          {cert.name}
+                        </Link>
+                      ) : (
+                        cert.name
+                      )}
+                    </CardTitle>
                   </div>
                   <CardDescription>{cert.issuer} - {cert.date}</CardDescription>
                 </CardHeader>
