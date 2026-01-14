@@ -65,7 +65,11 @@ export default function Home() {
                   <CardDescription>{job.company} | {job.period}</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <p>{job.description}</p>
+                  <ul className="list-disc list-inside space-y-1 text-muted-foreground">
+                    {job.points.map((point, index) => (
+                      <li key={index}>{point}</li>
+                    ))}
+                  </ul>
                 </CardContent>
               </Card>
             ))}
