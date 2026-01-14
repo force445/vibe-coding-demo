@@ -1,19 +1,20 @@
 export const portfolio = {
   personal: {
-    name: "Alex Devops",
+    name: "Force Devops",
     role: "DevOps Engineer",
-    bio: "Passionate DevOps Engineer with 5+ years of experience in automating and optimizing mission-critical deployments over large infrastructure. Expert in AWS, Kubernetes, and CI/CD pipelines.",
+    bio: "Passionate DevOps Engineer with 5+ years of experience in automating and optimizing mission-critical deployments over large infrastructure. Expert in Azure, Kubernetes, and GitLab CI/CD pipelines.",
     location: "San Francisco, CA",
     email: "alex@example.com",
-    github: "https://github.com/alexdevops",
-    linkedin: "https://linkedin.com/in/alexdevops",
+    github: "https://github.com/force445",
+    linkedin: "https://www.linkedin.com/in/naphat-chaiyakarn/",
   },
   skills: [
-    { name: "AWS", level: "Expert" },
+    { name: "Azure", level: "Expert" },
     { name: "Kubernetes", level: "Expert" },
     { name: "Docker", level: "Expert" },
     { name: "Terraform", level: "Advanced" },
-    { name: "CI/CD (Jenkins, GitHub Actions)", level: "Advanced" },
+    { name: "GitLab CI", level: "Advanced" },
+    { name: "Azure DevOps", level: "Advanced" },
     { name: "Python", level: "Intermediate" },
     { name: "Go", level: "Intermediate" },
     { name: "Linux Administration", level: "Expert" },
@@ -21,8 +22,8 @@ export const portfolio = {
   ],
   certifications: [
     {
-      name: "AWS Certified Solutions Architect - Professional",
-      issuer: "Amazon Web Services",
+      name: "Microsoft Certified: Azure Administrator Associate",
+      issuer: "Microsoft",
       date: "2023",
     },
     {
@@ -42,14 +43,14 @@ export const portfolio = {
       role: "Senior DevOps Engineer",
       period: "2021 - Present",
       description:
-        "Led the migration of legacy monolithic applications to a microservices architecture on AWS EKS. Implemented GitOps workflows with ArgoCD, reducing deployment times by 70%.",
+        "Led the migration of legacy monolithic applications to a microservices architecture on Azure AKS. Implemented GitOps workflows with ArgoCD, reducing deployment times by 70%.",
     },
     {
       company: "CloudNative Startup",
       role: "DevOps Engineer",
       period: "2019 - 2021",
       description:
-        "Designed and maintained highly available infrastructure using Terraform. Built automated CI/CD pipelines using Jenkins and GitHub Actions.",
+        "Designed and maintained highly available infrastructure using Terraform. Built automated CI/CD pipelines using GitLab CI.",
     },
   ],
   projects: [
@@ -61,18 +62,18 @@ export const portfolio = {
       tags: ["Go", "Kubernetes", "Controller"],
     },
     {
-      name: "Infra-as-Code Modules",
+      name: "Azure Infrastructure Modules",
       description:
-        "A comprehensive library of reusable Terraform modules for AWS services, following security best practices and compliance standards.",
-      link: "https://github.com/alexdevops/terraform-modules",
-      tags: ["Terraform", "AWS", "Security"],
+        "A comprehensive library of reusable Terraform modules for Azure services, following security best practices and compliance standards.",
+      link: "https://github.com/force445/terraform-modules",
+      tags: ["Terraform", "Azure", "Security"],
     },
     {
       name: "Serverless Monitoring Dashboard",
       description:
-        "A real-time monitoring dashboard for serverless applications using AWS Lambda, CloudWatch, and React/Next.js.",
-      link: "https://github.com/alexdevops/serverless-dash",
-      tags: ["Next.js", "AWS Lambda", "Serverless"],
+        "A real-time monitoring dashboard for serverless applications using Azure Functions and React/Next.js.",
+      link: "https://github.com/force445/serverless-dash",
+      tags: ["Next.js", "Azure Functions", "Serverless"],
     },
   ],
 };
